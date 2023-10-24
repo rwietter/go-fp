@@ -6,4 +6,5 @@ func main() {
 	fp.FirstClassFunction()
 	fp.Closure()
 	fp.Currying()
+	fp.Compose()
 }
