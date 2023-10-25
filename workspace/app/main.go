@@ -13,4 +13,10 @@ func main() {
 	fp.DotChaining()
 	fp.PartialApplication()
 	fp.ContinuationPassingStyle()
+	fp.Lambda()
+	fp.Memoization()
+	fp.Functor()
+	fp.Sort()
+	fp.Bifunctor()
+	fp.Pipe()
 }

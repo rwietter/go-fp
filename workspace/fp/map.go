@@ -16,4 +16,11 @@ func Mapping() {
 	doubledNumbers := mapping(numbers, double)
 
 	fmt.Println("Mapping:", doubledNumbers) // Output: [2 4 6 8 10]
+
+	// Using lambda function
+	doubled := mapping(numbers, func(x int) int {
+		return x * 2
+	})
+
+	fmt.Println("Lambda mapping:", doubled)
 }
